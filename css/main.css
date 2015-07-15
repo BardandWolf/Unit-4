@@ -1,0 +1,154 @@
+* {margin:0;padding:0;box-sizing:border-box;}
+html { 
+  background: url(../images/background7.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+body{
+    font-family: "Adobe Caslon Pro", "Hoefler Text", Georgia, Garamond, Times, serif;
+    /* Gill Sans, Verdana; */
+    color: #C4C8CC;
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+h1{
+    text-indent: 0em;
+    font-size: 1.25em;
+    padding: 1em;
+    margin-top: .5em;
+    letter-spacing: -.5px;
+    color: white;
+}
+
+h2{
+    font-size: 2em;
+    line-height: 1.25em;
+    margin-right: 5em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+p{
+    text-indent: 5em;
+    letter-spacing: 1px;
+    line-height: 2.2em;
+    margin-right: 5em;
+    margin-left: 5em;
+    margin-bottom: 2em;
+}
+
+ul{
+    letter-spacing: 1px;
+    line-height: 1.5em;
+    margin-right: 5em;
+    margin-left: 7em;
+    margin-bottom: 2em;
+    line-height: 2.5em;
+}
+
+nav{
+    margin-top: 1.25em;
+    margin-bottom: .5em;
+}
+
+#navmenu{
+    position: float;
+    background-color: #000;
+}
+
+nav a{
+    color: white;
+    font-size: 1.1em;
+    text-decoration: none;
+}
+
+.menu{
+    float: right;
+    display: inline;
+    width: 15%;
+}
+
+section#intro p{
+    margin-bottom: .5em;
+    max-width: 85%;
+    letter-spacing: 1.5px;
+    line-height: 2.5em;
+    margin-right: 0em;
+    margin-left: 0em;
+    margin-top: 0em;
+}
+
+section#intro{
+    font-size: 1em;
+    text-indent: 4em;
+ }
+
+ #pocketwatch{
+    /* why are these margins not working?!?!?? */
+    margin: 0, 0em, 10em, 10em;
+    float: right;
+    clear: right;
+}
+
+#gears{
+    float: left;
+    height: 20%;
+    width: 20%;
+}
+
+#buttons a, footer a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.button {
+    float: right;
+    width: 20%;
+    margin-bottom: 5em;
+}
+
+.quote {
+    text-align: right;
+    font-weight: bold;
+    font-size: 1.4em;
+    letter-spacing: 1.5px;
+    margin-right: 0em;
+}
+
+
+section#projectsection div {
+    max-width:75em;
+    margin: 0 auto;
+}
+section#projectsection .projects {
+    border: .2em solid #fff;
+    border-radius: 0em;
+    margin:.5%;
+    min-height: 10em;
+    padding: 0em 0em 0em 0em;
+    text-align: center;
+    max-width: 25em;
+    display: inline-table;
+    /* without this margin-left I couldn't get these to center... how else do you do this? */
+    margin-left: 5em;
+}
+
+section#projectsection p{
+    text-indent: 0em;
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+}
+
+footer a{
+    display: inline-block;
+    margin-right: 1.4em;
+    margin-left: 1.4em;
+}
